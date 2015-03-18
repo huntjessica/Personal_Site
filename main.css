@@ -1,0 +1,415 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*=========End of Reset==========*/
+
+/* ---------------------------------- video section ------------------------------------------- */
+#jessica {
+  height: 39em;
+  width: 100%;
+}
+
+.picText {
+  text-align: center;
+  background-image: url("images/mac1.jpg");
+  background-size: cover;
+  height: 870px;
+}
+
+
+#topLine {
+  font-family: 'Raleway', sans-serif;
+  font-size: 4.375em;
+  color: #0A7979;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5em;
+  padding-bottom: 10px;
+  text-align: center;
+  z-index: 100;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+#secondLine {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.775em;
+  width: 41.379310344827586%;
+  color: #0A7979;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  font-weight: 200;
+  margin-top: -0.515em;
+  z-index: 100;
+  
+}
+
+.menuBar {
+  background-color: #FFFFFF;
+  color: #595959;
+  height: 60px;
+  box-shadow: 0px 0.5px 1px #888888;
+  top: 0;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  position: fixed;
+  -webkit-transform: translateZ(0);
+  z-index: 10000;
+}
+
+.menuBarText {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menuBar p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  display: inline;
+  position: relative;
+  float: left;
+  font-size: 1.875em;
+  margin-top: 15px;
+  margin-left: 7.586206896551724%;
+}
+
+.menuBar ul {
+  margin-right: 4.1379310344827586%;
+}
+
+.menuBar li {
+  font-family: Lato;
+  font-weight: 300;
+  display: inline;
+  font-size: 1em;
+  position: relative;
+  float: right;
+  margin-right: 3.4482758620689655%;
+  top: 20px;
+}
+
+.menuBar img {
+  position: inline-block;
+  width: 18px;
+  display: none;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.dropDown {
+  width: 120px;
+  z-index: 10000;
+  display: none;
+  font-size: 1em;
+  box-shadow: 0px 0.5px 1px #888888;
+  margin-top: 61px;
+  position: fixed;
+  right: 23px;
+}
+
+.dropDown li {
+  color: #595959;
+  background-color: #FFFFFF;
+  padding: 10px;
+  width: 120px;
+  text-align: center;
+  font-family: Lato;
+  font-size: 1em;
+  font-weight: 300;
+  box-shadow: 0px 0.5px 1px #888888;
+  margin-bottom: 1px;
+  right: 2px;
+  overflow: hidden;
+}
+
+
+.menuBar a:link {
+  color: #595959;
+  text-decoration: none;
+}
+
+.menuBar a:visited {
+  color: #595959;
+  text-decoration: none;
+}
+
+.menuBar a:hover {
+  color: #595959;
+  text-decoration: none;
+}
+
+.menuBar a:active {
+  color: #595959;
+  text-decoration: none;
+}
+
+.dropDown a:link {
+  color: #595959;
+  text-decoration: none;
+}
+
+.dropDown a:visited {
+  color: #595959;
+  text-decoration: none;
+}
+
+.dropDown a:hover {
+  color: #595959;
+  text-decoration: none;
+}
+
+.dropDown a:active {
+  color: #595959;
+  text-decoration: none;
+}
+
+/* ------------------------------------- general groupings ----------------------------------------------- */
+
+section {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+  width: 85%;
+  margin-bottom: 60px;
+  display: block;
+  position: relative;
+}
+
+section h2 { /*header for each section*/
+  text-align: center;
+  font-family: Lato;
+  font-size: 1.875em;
+  font-weight: 300;
+  color: #595959;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+
+
+hr {
+  color: #E0E0E0;
+  background-color: #E0E0E0;
+  height: 1px;
+  border: none;
+  opacity: 1;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 25px;
+}
+
+/* ---------------------------------- about me -------------------------------------------- */
+
+.aboutmeContent {
+  position: relative;
+}
+
+#aboutme > h2{
+  margin-top: 300px;
+}
+
+.aboutmeContent p {
+  font-family: Lato;
+  font-weight: 300;
+  color: #595959;
+  font-size: 1.1em;
+  line-height: 1.8;
+  text-align: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 49%;
+}
+
+/* ------------------------------- portfolio section ------------------------------------------ */
+
+.item {
+  position: relative;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item li {
+  display: inline-block;
+}
+
+.img-wrap { /* each li */
+  width: 375px;
+  position: relative;
+  overflow: hidden;
+}
+
+.img-wrap img {
+  width: 375px;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.img-wrap p { /* label under portfolio */
+  text-align: center;
+  font-family: Lato;
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 70px;
+}
+
+.img-overlay {
+  background-color: #0A7979;
+  top: 0;
+  color: #fff;
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 72%;
+  z-index:1000;
+}
+
+.img-wrap:hover .img-overlay {
+  opacity:0.85;
+  transition:opacity 0.25s;
+  -moz-transition:opacity 0.25s;
+  -webkit-transition:opacity 0.25s;
+}
+
+.img-overlay p {
+  font-family: Lato;
+  font-size: 20px;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  padding: 12px;
+  font-weight: 500;
+  bottom: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 120px;
+  width: 150px;
+  text-decoration: none;
+  position: relative;
+}
+
+.img-overlay p:hover {
+  background-color: #FFFFFF;
+  color: #0A7979;
+}
+
+.img-wrap a:link {
+  color: #595959;
+  text-decoration: none;
+}
+
+.img-wrap a:visited {
+  color: #595959;
+  text-decoration: none;
+}
+
+.img-wrap a:hover {
+  color: #595959;
+  text-decoration: none;
+}
+
+.img-wrap a:active {
+  color: #595959;
+  text-decoration: none;
+}
+
+/* ------------------------------------- contact section --------------------------------------- */
+
+#contact {
+  position: relative;
+  text-align: center;
+}
+
+.contactChoices li {
+  display: inline;
+}
+
+.contactChoices li img {
+  width: 30px;
+  height: 30px;
+  padding: 13px;
+  margin: 5px;
+  background-color: #595959;
+  border-radius: 5px;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* --------------------------------------- footer section -------------------------------------- */
+
+footer {
+  background-color: #FFFFFF;
+  color: #595959;
+  height: 60px;
+  box-shadow: 0.5px 0px 1px #595959;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  z-index: 10000;
+}
+
+footer p {
+  font-weight: 300;
+  font-family: Lato;
+  padding-top: 23px;
+  font-size: 1em;
+}
+
+
+
