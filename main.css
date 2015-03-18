@@ -420,7 +420,7 @@ media queries
     font-size: 15px;
   }
 
-  #jessica video {
+  #jessica .picText {
     display: none;
   }
 
@@ -534,7 +534,7 @@ media queries
     text-align: justify;
   }
 
-  #jessica video {
+  #jessica .picText{
     position: absolute;
     width: 100%;
     height: auto;
