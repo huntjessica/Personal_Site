@@ -4,8 +4,8 @@ $(document).ready(function() {
         event.preventDefault();
           var anchor = $(this);
           $('html, body').stop().animate({
-              scrollTop: $(anchor.attr('href')).offset().top -100
-          }, 100);
+              scrollTop: $(anchor.attr('href')).offset().top -85
+          }, 700);
       });
   });
 
