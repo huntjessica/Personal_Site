@@ -60,6 +60,9 @@ table {
   background-image: url("images/mac1.jpg");
   background-size: cover;
   height: 870px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 
